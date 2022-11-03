@@ -1,6 +1,15 @@
+.btn{
+    border-radius: 6px;
+    border-color: #ab8de7;
+    color: white;
+    background: #7645d9;
+    padding: 6px 24px;
+}
+
 .btn__cancel{
     background-color: transparent;
     color: #7645d9;
+    
 }
 
 .btn__cancel:hover{

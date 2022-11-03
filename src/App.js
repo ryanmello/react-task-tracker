@@ -1,15 +1,11 @@
 import React from 'react'
-import Header from './components/Header'
 
 function App() {
-  const name = 'Brad'
-
   return (
-    <div className='container'>
-      <Header />
+    <div className=''>
+      <h1>Hello World</h1>
     </div>
   );
 }
-
 
 export default App;

@@ -18,8 +18,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 250vh 100vh;
+}
 
-  
+h1{
+  padding-right: 80px;
 }
 
 .container {

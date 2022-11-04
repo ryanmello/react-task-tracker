@@ -1,23 +1,16 @@
 import "./Modal.css";
 
-function Modal({ confirmation }) {
-  function printCancel() {
-    console.log("cancel");
-  }
-
-  function printConfirm() {
-    console.log("confirm");
-  }
+function Modal({ confirmation, cancelModal, confirmModal }) {
 
   return (
     <>
       <div className="modal">
         <p className="modal__title">{confirmation}</p>
         <div className="modal__buttons">
-          <button onClick={() => printCancel()} className="btn btn__cancel">
+          <button onClick={cancelModal} className="btn btn__cancel">
             Cancel
           </button>
-          <button onClick={printConfirm} className="btn">
+          <button onClick={confirmModal} className="btn">
             Confirm
           </button>
         </div>

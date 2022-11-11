@@ -1,4 +1,5 @@
 import "./Modal.css";
+import React from 'react';
 
 function Modal({ confirmation, cancelModal, confirmModal }) {
 
